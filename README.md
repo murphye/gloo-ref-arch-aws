@@ -15,7 +15,7 @@
 
 ## Ref Arch Development Milestones
 
-### Part 1: Infrastucture and Gloo Installations
+### Part 1: Provision Infrastucture and Install Gloo
 
 - [ ] Create domain and DNS entries in Route 53
 - [ ] Generate required certificates from ACM
@@ -39,13 +39,13 @@
 - [ ] More...
 - [ ] Provision EC2 instance for legacy application
 
-### Part 2: Demo Application(s) Installations
+### Part 2: Deploy Demo Applications
 
 - [ ] Deploy applications using Argo
-- [ ] Deploy legacy application
+- [ ] Deploy legacy application to EC2 instance
 - [ ] Deploy Lamba application
 
-### Part 3: Platform Features
+### Part 3: Configure Platform Features
 
 - [ ] Configure Gloo Edge service failover
 - [ ] Configure Gloo Mesh multi-cluster traffic
@@ -59,7 +59,7 @@
 ```
 TODO:
 Gloo Enterprise Keys
-Route53 domain name
+Route 53 domain name
 ```
 
 
