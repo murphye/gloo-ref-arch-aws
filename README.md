@@ -9,6 +9,7 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 * Integration with a enterprise monitoring solution (Datadog)
 * API design, development, and management approach using Git (Stoplight Studio)
 * Multi-cluster and multi-region traffic routing and service failover using both Gloo Edge and Gloo Mesh
+* Demonstrate Gloo integrations with AWS
 
 ## Reference Architecture Development Tasks
 
