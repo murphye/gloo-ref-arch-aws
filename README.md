@@ -13,7 +13,14 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 
 ## Reference Architecture Development Tasks
 
-### Part 1: Automated Installation of Gloo Platform Components on EKS
+### Part 1: Define Enterprise Use Case
+
+- [ ] Technology challenges
+- [ ] Business challenges
+- [ ] APIs
+- [ ] Applications
+
+### Part 2: Automated Installation of Gloo Platform Components on EKS
 
 - [ ] Create domain and DNS entries in Route 53
 - [ ] Generate required certificates from ACM
@@ -26,7 +33,7 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] Install Datadog for Istio
 - [ ] Install Argo CD
 
-### Part 2: Automated Installation of Multi-Cluster, Multi-Region Gloo Platform
+### Part 3: Automated Installation of Multi-Cluster, Multi-Region Gloo Platform
 
 - [ ] Provision multi-cluster, multi-region EKS + Edge/Portal/Istio/Argo/Datadog
 - [ ] Provision EKS Gloo Management cluster
@@ -39,21 +46,21 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
 - [ ] Provision and deploy tiered system architecture (i.e. Web and Service) by using separate EKS clusters
 
-### Part 3: Automated Deployment of Demo Applications
+### Part 4: Automated Deployment of Demo Applications
 
 - [ ] Deploy applications to EKS using Argo
 - [ ] Provision EC2 instance for legacy application
 - [ ] Deploy legacy application to EC2 instance
 - [ ] Deploy Lamba application
 
-### Part 4: Automated Configuration of Platform Features
+### Part 5: Automated Configuration of Platform Features
 
 - [ ] Configure Gloo Edge service failover
 - [ ] Configure Gloo Mesh multi-cluster traffic
 - [ ] Configure Gloo Mesh service failover
 - [ ] Configure custom Gloo Portal
 
-### Part 5: OpenAPI Design and Development Approach
+### Part 6: OpenAPI Design and Development Approach
 
 - [ ] TODO
 
