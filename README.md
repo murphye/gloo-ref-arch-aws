@@ -35,7 +35,7 @@
 - [ ] Register Gloo Mesh clusters (`meshctl`)
 - [ ] Configure Gloo Mesh traffic policy
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
-- [ ]
+- [ ] More...
 
 
 ## Part 2: Demo Application(s) Installations
