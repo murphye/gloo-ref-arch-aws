@@ -1,8 +1,14 @@
 # Gloo API Infrastructure Platform Reference Architecture for AWS
 
-This is a *work-in-progress* reference architecture to deploy the entire Gloo API Infrastructure Platform on AWS EKS. Primary components are Gloo Edge, Gloo Portal, Istio, and Gloo Mesh. The reference architecture also leverages Argo CD to deploy applications and configurations.
+This is a *work-in-progress* reference architecture to deploy the entire Gloo API Infrastructure Platform on AWS EKS. Primary components are Gloo Edge, Gloo Portal, Istio, and Gloo Mesh.
 
-A major piece of this reference architecture is multi-cluster and multi-region traffic routing and service failover using both Gloo Edge and Gloo Mesh.
+## Reference Architecture Highlights
+
+* Demonstrate how all of the Gloo components work together for an enterprise use case
+* GitOps-first approach with Argo CD to deploy applications and configurations, including configurations for Gloo and Istio
+* Integration with a enterprise monitoring solution (Datadog)
+* API design, development, and management approach using Git (Stoplight Studio)
+* Multi-cluster and multi-region traffic routing and service failover using both Gloo Edge and Gloo Mesh
 
 ## Ref Arch Development Tasks
 
@@ -42,6 +48,10 @@ A major piece of this reference architecture is multi-cluster and multi-region t
 - [ ] Configure Gloo Mesh multi-cluster traffic
 - [ ] Configure Gloo Mesh service failover
 - [ ] Configure custom Gloo Portal
+
+### Part 4: OpenAPI Design and Development
+
+- [ ] TODO
 
 ## Instructions
 
