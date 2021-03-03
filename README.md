@@ -25,6 +25,9 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] Install Datadog for EKS, Envoy
 - [ ] Install Datadog for Istio
 - [ ] Install Argo CD
+
+### Part 2: Automated Installation of Multi-Cluster, Multi-Region Gloo Platform
+
 - [ ] Provision multi-cluster, multi-region EKS + Edge/Portal/Istio/Argo/Datadog
 - [ ] Provision EKS Gloo Management cluster
 - [ ] TF Helm install of Gloo Edge Federation to Gloo Management cluster
@@ -34,23 +37,22 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] Register Gloo Mesh clusters
 - [ ] Configure Gloo Mesh traffic policy
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
-- [ ] More...
+
+### Part 3: Automated Deployment of Demo Applications
+
+- [ ] Deploy applications to EKS using Argo
 - [ ] Provision EC2 instance for legacy application
-
-### Part 2: Automated Deployment of Demo Applications
-
-- [ ] Deploy applications using Argo
 - [ ] Deploy legacy application to EC2 instance
 - [ ] Deploy Lamba application
 
-### Part 3: Automated Configuration of Platform Features
+### Part 4: Automated Configuration of Platform Features
 
 - [ ] Configure Gloo Edge service failover
 - [ ] Configure Gloo Mesh multi-cluster traffic
 - [ ] Configure Gloo Mesh service failover
 - [ ] Configure custom Gloo Portal
 
-### Part 4: OpenAPI Design and Development Approach
+### Part 5: OpenAPI Design and Development Approach
 
 - [ ] TODO
 
