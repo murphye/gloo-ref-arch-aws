@@ -11,7 +11,45 @@
   * Configure mTLS for Gloo Edge and Istio
   * Configure Gloo Mesh Istio clusters
   * Configure Gloo Edge Federation clusters
-  * Configure DataDog for Envoy and Istio
+  * Configure Datadog for Envoy and Istio
+
+## Ref Arch Development Milestones
+
+## Part 1: Infrastucture and Gloo Installations
+
+- [ ] Create DNS entries
+- [ ] Provision single cluster EKS, VCP, ELB with Terraform (TF)
+- [ ] TF Helm install of Gloo Edge
+- [ ] TF Helm install of Gloo Portal
+- [ ] TF Helm install of Istio
+- [ ] Gloo Edge + Istio mTLS integration
+- [ ] Install Datadog for EKS, Envoy
+- [ ] Install Datadog for Istio
+- [ ] Install Argo CD
+- [ ] Provision multi-cluster, multi-region EKS + Edge/Portal/Istio/Argo/Datadog
+- [ ] Provision EKS Gloo Management cluster
+- [ ] TF Helm install of Gloo Edge Federation to Gloo Management cluster
+- [ ] Register Gloo Edge clusters (`glooctl`)
+- [ ] Configure Gloo Edge service failover gateway
+- [ ] TF Helm install of Gloo Mesh to Gloo Management cluster
+- [ ] Register Gloo Mesh clusters (`meshctl`)
+- [ ] Configure Gloo Mesh traffic policy
+- [ ] Configure shared root CA for a share identity domain in Gloo Mesh
+- [ ]
+
+
+## Part 2: Demo Application(s) Installations
+
+- [ ] TODO
+
+# Part 3: Platform Features
+
+- [ ] Gloo Edge service failover
+- [ ] Gloo Mesh multi-cluster traffic
+- [ ] Gloo Mesh service failover
+- [ ] Deploy custom Gloo Portal configuration
+
+## Instructions
 
 ### Set Environment Variables
 
@@ -52,6 +90,7 @@ kubectl get svc
 
 1. https://docs.solo.io/gloo-edge/latest/installation/enterprise/
 1. https://docs.solo.io/gloo-edge/latest/installation/gloo_federation/
+1. https://docs.solo.io/gloo-edge/latest/guides/gloo_federation/service_failover/
 1. https://docs.solo.io/gloo-edge/latest/installation/advanced_configuration/extauth_custom_ca/
 1. https://docs.solo.io/gloo-edge/latest/installation/gateway/kubernetes/helm_advanced/
 1. https://docs.solo.io/gloo-edge/latest/installation/platform_configuration/cluster_setup/#amazon-elastic-container-service-for-kubernetes-eks
