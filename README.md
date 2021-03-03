@@ -12,7 +12,7 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 
 ## Reference Architecture Development Tasks
 
-### Part 1: Automated Provisioning of Infrastucture and Installation of Gloo Platform Components
+### Part 1: Automated Installation of Gloo Platform Components on EKS
 
 - [ ] Create domain and DNS entries in Route 53
 - [ ] Generate required certificates from ACM
