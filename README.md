@@ -15,7 +15,7 @@
 
 ## Ref Arch Development Milestones
 
-## Part 1: Infrastucture and Gloo Installations
+### Part 1: Infrastucture and Gloo Installations
 
 - [ ] Create domain and DNS entries in Route53
 - [ ] Generate certificates from ACM
@@ -37,19 +37,20 @@
 - [ ] Configure Gloo Mesh traffic policy
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
 - [ ] More...
-
-## Part 2: Demo Application(s) Installations
-
-- [ ] TODO
 - [ ] Provision EC2 instance for legacy application
-- [ ] Provision Lamba
 
-# Part 3: Platform Features
+### Part 2: Demo Application(s) Installations
 
-- [ ] Gloo Edge service failover
-- [ ] Gloo Mesh multi-cluster traffic
-- [ ] Gloo Mesh service failover
-- [ ] Deploy custom Gloo Portal configuration
+- [ ] Deploy applications using Argo
+- [ ] Deploy legacy application
+- [ ] Deploy Lamba application
+
+### Part 3: Platform Features
+
+- [ ] Configure Gloo Edge service failover
+- [ ] Configure Gloo Mesh multi-cluster traffic
+- [ ] Configure Gloo Mesh service failover
+- [ ] Configure custom Gloo Portal
 
 ## Instructions
 
