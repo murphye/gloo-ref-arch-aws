@@ -1,18 +1,5 @@
 # Gloo API Infrastructure Platform Reference Architecture for AWS
 
-## Goals
-
-* Provision multiple EKS clusters across multiple AWS regions
-  * VPCs with public/private subnets
-  * Security groups
-  * ELBs
-* Install Gloo Edge, Gloo Portal, Gloo Mesh, and Istio into EKS
-  * EE versions of Gloo only
-  * Configure mTLS for Gloo Edge and Istio
-  * Configure Gloo Mesh Istio clusters
-  * Configure Gloo Edge Federation clusters
-  * Configure Datadog for Envoy and Istio
-
 ## Ref Arch Development Milestones
 
 ### Part 1: Provision Infrastucture and Install Gloo
