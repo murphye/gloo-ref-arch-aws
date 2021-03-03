@@ -7,17 +7,17 @@
   * Security groups
   * ELBs
 * Install Gloo Edge, Gloo Portal, Gloo Mesh, and Istio into EKS
+  * EE versions of Gloo only
   * Configure mTLS for Gloo Edge and Istio
   * Configure Gloo Mesh Istio clusters
   * Configure Gloo Edge Federation clusters
-  *
-
+  * Configure DataDog for Envoy and Istio
 
 ### Set Environment Variables
 
 ```
 TODO:
-Gloo Enterprise Keys (optional?)
+Gloo Enterprise Keys
 Route53 domain name
 ```
 
@@ -55,12 +55,15 @@ kubectl get svc
 1. https://docs.solo.io/gloo-edge/latest/installation/advanced_configuration/extauth_custom_ca/
 1. https://docs.solo.io/gloo-edge/latest/installation/gateway/kubernetes/helm_advanced/
 1. https://docs.solo.io/gloo-edge/latest/installation/platform_configuration/cluster_setup/#amazon-elastic-container-service-for-kubernetes-eks
+1. https://docs.solo.io/gloo-edge/latest/guides/integrations/service_mesh/gloo_istio_mtls/
+1. https://docs.solo.io/gloo-edge/latest/guides/integrations/datadog/
 
 ### Istio
 
 1. https://istio.io/latest/docs/setup/install/helm/
 1. https://docs.solo.io/gloo-mesh/latest/guides/installing_istio/
 1. https://docs.solo.io/gloo-mesh/latest/operations/customize_dns/
+1. https://www.datadoghq.com/blog/istio-datadog/
 
 ### Gloo Mesh
 
