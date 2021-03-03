@@ -12,7 +12,7 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 
 ## Reference Architecture Development Tasks
 
-### Part 1: Provision Infrastucture and Install Gloo
+### Part 1: Automated Provisioning of Infrastucture and Installation of Gloo Platform Components
 
 - [ ] Create domain and DNS entries in Route 53
 - [ ] Generate required certificates from ACM
@@ -36,20 +36,20 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] More...
 - [ ] Provision EC2 instance for legacy application
 
-### Part 2: Deploy Demo Applications
+### Part 2: Automated Deployment of Demo Applications
 
 - [ ] Deploy applications using Argo
 - [ ] Deploy legacy application to EC2 instance
 - [ ] Deploy Lamba application
 
-### Part 3: Configure Platform Features
+### Part 3: Automated Configuration of Platform Features
 
 - [ ] Configure Gloo Edge service failover
 - [ ] Configure Gloo Mesh multi-cluster traffic
 - [ ] Configure Gloo Mesh service failover
 - [ ] Configure custom Gloo Portal
 
-### Part 4: OpenAPI Design and Development
+### Part 4: OpenAPI Design and Development Approach
 
 - [ ] TODO
 
