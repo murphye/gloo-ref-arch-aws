@@ -17,8 +17,8 @@
 
 ### Part 1: Infrastucture and Gloo Installations
 
-- [ ] Create domain and DNS entries in Route53
-- [ ] Generate certificates from ACM
+- [ ] Create domain and DNS entries in Route 53
+- [ ] Generate required certificates from ACM
 - [ ] Provision single cluster EKS, VCP, ELB with Terraform (TF)
 - [ ] TF Helm install of Gloo Edge
 - [ ] TF Helm install of Gloo Portal
