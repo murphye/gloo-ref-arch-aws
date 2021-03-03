@@ -17,7 +17,8 @@
 
 ## Part 1: Infrastucture and Gloo Installations
 
-- [ ] Create DNS entries
+- [ ] Create domain and DNS entries in Route53
+- [ ] Generate certificates from ACM
 - [ ] Provision single cluster EKS, VCP, ELB with Terraform (TF)
 - [ ] TF Helm install of Gloo Edge
 - [ ] TF Helm install of Gloo Portal
@@ -29,18 +30,19 @@
 - [ ] Provision multi-cluster, multi-region EKS + Edge/Portal/Istio/Argo/Datadog
 - [ ] Provision EKS Gloo Management cluster
 - [ ] TF Helm install of Gloo Edge Federation to Gloo Management cluster
-- [ ] Register Gloo Edge clusters (`glooctl`)
+- [ ] Register Gloo Edge clusters
 - [ ] Configure Gloo Edge service failover gateway
 - [ ] TF Helm install of Gloo Mesh to Gloo Management cluster
-- [ ] Register Gloo Mesh clusters (`meshctl`)
+- [ ] Register Gloo Mesh clusters
 - [ ] Configure Gloo Mesh traffic policy
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
 - [ ] More...
 
-
 ## Part 2: Demo Application(s) Installations
 
 - [ ] TODO
+- [ ] Provision EC2 instance for legacy application
+- [ ] Provision Lamba
 
 # Part 3: Platform Features
 
