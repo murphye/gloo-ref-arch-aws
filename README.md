@@ -37,6 +37,7 @@ This is a *work-in-progress* reference architecture to deploy the entire Gloo AP
 - [ ] Register Gloo Mesh clusters
 - [ ] Configure Gloo Mesh traffic policy
 - [ ] Configure shared root CA for a share identity domain in Gloo Mesh
+- [ ] Provision and deploy tiered system architecture (i.e. Web and Service) by using separate EKS clusters
 
 ### Part 3: Automated Deployment of Demo Applications
 
